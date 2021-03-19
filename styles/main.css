@@ -1,0 +1,21 @@
+:root{
+    --backgorund-color: #800000;
+    --text-color: black;
+}
+
+body{
+    background: var(--backgorund-color);
+}
+a{
+    color: var(--text-color);
+}
+
+h4{
+    font-style: italic;
+}
+
+footer{
+    position: relative;
+    background-color: white;
+    padding: 20px 0px 5px 0px;
+}
