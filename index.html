@@ -4,6 +4,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Evan Brill's Personal Website</title>
+<!--    <link rel="stylesheet" href="styles/mdb.dark.min.css">-->
+    <link rel="stylesheet" href="styles/mdb.min.css">
+<!--    <link rel="stylesheet" href="styles/mdb.rtl.min.css">-->
+<!--    <link rel="stylesheet" href="styles/mdb.dark.rtl.min.css">-->
     <link rel="stylesheet" href="styles/normalize.css"/>
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="icon" href="images/favicon.png"/>
@@ -21,16 +25,16 @@
     </ul>
 </nav>
 <main>
-<h1>About Me</h1>
-<img src="images/me_300x400.jpg"/>
-<p>
+<h1 id="about"></h1>
+<img class="animated fadeIn" src="images/me_300x400.jpg"/>
+<p class="animated fadeIn delay-1s">
     My name is Evan Brill. I am a sophomore computer science/software engineering major at Rose-Hulman Institute of
     technology. My particular interests include C programming and binary exploitation in the ARM architecture.
     However, I have recently been branching out into other architectures and undertaking more complex projects. I also
     do a fair bit of high level development in languages like Java and Python as it is required for school. I occasionally
     use these languages to do work on my own projects or write silly things like Minecraft mods.
 </p>
-<p>
+<p class="animated fadeIn delay-2s">
     I am also a member of the RHIT cross country and track and field teams. This takes up the vast majority of my time
     outside of class and schoolwork, but I really enjoy it so I am okay with that. In the rare times where I am not running
     or working on school, I like to spend my time outdoors. I do a fair bit of fishing, hiking, kayaking, biking, and camping,
@@ -41,5 +45,6 @@
     Contact Info: Email - brillew@rose-hulman.edu
 </footer>
 <script src="scripts/main.js"></script>
+<script src="scripts/mdb.min.js"></script>
 </body>
 </html>
